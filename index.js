@@ -1,5 +1,5 @@
 var bind = require('bindings');
-var addon = bind('blueutil');
+var addon = bind('IOBluetooth-wrapper');
 var prompt = require('prompt');
 
 
@@ -31,7 +31,7 @@ async function run() {
   while (answer !== '0') {
     const choice = await prompt.get(['Enter 1 to connect, 2 to disconnect, 0 to exit'])
     answer = choice['Enter 1 to connect, 2 to disconnect, 0 to exit'];
-    
+
     if (answer === '0') {
       break;
     }

@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "blueutil",
-      "sources": [ "blueutil.mm"],
+      "target_name": "IOBluetooth-wrapper",
+      "sources": [ "IOBluetooth-wrapper.mm"],
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
       ],
