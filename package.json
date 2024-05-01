@@ -1,0 +1,26 @@
+{
+  "name": "iobluetooth-binding",
+  "version": "1.0.0",
+  "description": "this is WIP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmin89/IOBluetooth-binding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salmin89/IOBluetooth-binding/issues"
+  },
+  "homepage": "https://github.com/salmin89/IOBluetooth-binding#readme",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.19.0",
+    "prompt": "^1.3.0"
+  }
+}
